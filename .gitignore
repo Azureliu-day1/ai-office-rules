@@ -1,0 +1,21 @@
+# 给仓库主人的私人过目说明,不进公开版
+REVIEW-FOR-*.md
+
+# 系统与编辑器
+.DS_Store
+*.swp
+*~
+.idea/
+.vscode/
+
+# 本地密钥与环境文件(本仓不需要任何密钥)
+.env
+.env.*
+*.pem
+*.key
+
+# 变异测试锁与临时产物
+.mutation-running
+*.bak
+*.orig
+*.tmp
